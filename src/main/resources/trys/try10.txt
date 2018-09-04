@@ -1,0 +1,59 @@
+
+The minimum value for file: ../benchmark/b1.txt is: 
+Fitness of the best chromosome is: 0.0
+test time = 1286
+Area = 128.2876
+Power = 4063.4381000000003
+13 38 78 0 1272 41 33 0 4 2 
+There are 1481 unsatisfied constraints.
+
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = ADD_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = ACCEPTED
+Message from 169.254.179.122 : 2222 to 169.254.55.238 : 4444 tag = ADD_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = ACCEPTED
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = ADD_ME
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = ACCEPTED
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.179.122 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.179.122 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.179.122 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.179.122 : 2222 to 169.254.55.238 : 4444 tag = REMOVE_ME
+Message from 169.254.55.238 : 4444 to 169.254.179.122 : 2222 tag = REMOVED
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 4444 to 169.254.55.238 : 2222 tag = NEW_IMMIGRANTS
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = REMOVE_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = REMOVED
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.55.238 : 2222 to 169.254.55.238 : 4444 tag = REMOVE_ME
+
+The minimum value for file: ../benchmark/b1.txt is: 
+Fitness of the best chromosome is: 1.4011577979996217
+test time = 3328
+Area = 99.77860000000001
+Power = 1792.0449999999998
+2 0 0 0 0 0 0 0 0 1 
+There are 3 unsatisfied constraints.
+99.79743 percent of constraints have been removed.
+

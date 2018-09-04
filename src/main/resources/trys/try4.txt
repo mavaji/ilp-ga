@@ -1,0 +1,24 @@
+
+The minimum value for file: ../benchmark/b1.txt is: 
+Fitness of the best chromosome is: 0.0
+test time = 737
+Area = 128.2876
+Power = 1472.9816999999996
+12 43 78 0 1240 27 35 0 7 2 
+There are 1444 unsatisfied constraints.
+
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = ADD_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = ACCEPTED
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = BROADCAST_ME
+Message from 169.254.226.63 : 2222 to 169.254.55.238 : 4444 tag = REMOVE_ME
+Message from 169.254.55.238 : 4444 to 169.254.226.63 : 2222 tag = REMOVED
+
+The minimum value for file: ../benchmark/b1.txt is: 
+Fitness of the best chromosome is: 0.9632959861247399
+test time = 2925
+Area = 91.2536
+Power = 1807.2932999999998
+1 1 0 0 0 0 0 0 0 1 
+There are 3 unsatisfied constraints.
+99.792244 percent of constraints have been removed.
+

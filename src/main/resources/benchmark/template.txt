@@ -1,0 +1,122 @@
+13	--> Number of tasks
+7	--> Number of cores (including functional cores and busses)
+2	--> Number of test busses
+
+--> Task graph adjacency matrix
+13	--> Number of rows    (number of tasks)
+13	--> Number of columns (number of tasks)
+[
+	0	0	0	0	0	0	1	1	0	0	0	0	0
+	0	0	0	0	0	0	0	0	1	1	0	0	0
+	0	0	0	0	0	0	0	0	0	0	1	1	0
+	0	0	0	0	0	0	0	0	0	0	0	0	0
+	0	0	0	0	0	0	0	0	0	0	0	0	1
+	0	0	0	0	0	0	0	0	0	0	0	0	0
+	0	1	0	0	0	0	0	0	0	0	0	0	0
+	0	0	1	0	0	0	0	0	0	0	0	0	0
+	0	0	1	0	0	0	0	0	0	0	0	0	0
+	0	0	0	0	1	0	0	0	0	0	0	0	0
+	0	0	0	1	0	0	0	0	0	0	0	0	0
+	0	0	0	0	1	0	0	0	0	0	0	0	0
+	0	0	0	0	0	1	0	0	0	0	0	0	0
+]
+
+
+--> Communication IDs, shows which tasks are communication tasks
+--> {Number of communication task, CT#0, CT#1, ... }
+{7, 	6	7	8	9	10	11	12}
+
+
+--> Task deadlines, shows which tasks have a deadline. "-1" shows that the corresponding task has no deadline
+--> [Number of tasks, d0, d1, ... ]
+[13,	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1]
+
+--> Core bus IDs, shows which cores are busses
+--> {Number of busses, ... }
+{3,	4	5	6}
+
+--> Area of each cores
+--> [Number of cores, A0, A1, ... ]
+[8,	7.306	7.873	5.506	30.25	27.36	10.47	21.41	15.89]
+
+--> Price of each cores  *** Not used in our formulations ***
+--> [Number of cores, Prc0, Prc1, ... ]
+[8,	7	2	4	13	7	7	2	4]
+
+--> Input numbers
+--> [Number of cores, n0, n1, ... ]
+[7,	6	4	5	10	6	0	0	0]
+
+--> Output numbers
+--> [Number of cores, m0, m1, ... ]
+[7,	5	3	3	7	5	0	0	0]
+
+--> Shows the possiblity of execution of tasks on cores ->aij
+13	--> Number of rows    (number of tasks)
+7 	--> Number of columns (number of cores)
+[
+   	0	0   	1   	0   	0   	0   	0
+   	1   	0   	1   	0   	0   	0   	0
+   	1   	0   	0   	1   	0   	0   	0
+   	1   	1   	1   	1   	0   	0   	0
+   	0   	1   	0   	0   	0   	0   	0
+   	1   	1   	0   	0   	0   	0   	0
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+   	0   	0   	0   	0   	1   	1   	1
+]
+
+
+--> Shows the execution time of a task when executed on a core ->exij
+13	--> Number of rows    (number of tasks)
+7 	--> Number of columns (number of cores)
+[
+	0	0   	269.537	0   	0   	0   	0
+	905.596	0   	334.604	0   	0   	0   	0
+	2397.89	0   	0   	3235.41	0   	0   	0
+	2397.89	1889.31	2382.25 3235.41	0   	0   	0
+	0   	1317.61	0   	0   	0   	0   	0
+	2397.89	1889.31	0   	0   	0   	0   	0	
+   	0   	0   	0   	0   	794.432	1650.89	311.583
+	0   	0   	0   	0   	1912.54	2543.08	1756.57
+	0   	0   	0   	0   	794.432	1650.89	311.583
+	0   	0   	0   	0   	1912.54	2543.08	1756.57
+	0   	0   	0   	0   	1912.54	2543.08	1756.57
+	0   	0   	0   	0   	1912.54	2543.08	1756.57
+	0   	0   	0   	0   	1440.76	1761.72	1683.98
+]
+
+--> Shows the power consumption of a task when executed on a core ->pwij
+13	--> Number of rows    (number of tasks)
+7 	--> Number of columns (number of cores)
+[
+   	0	0   	115.203	0   	0   	0   	0
+	131.201	0   	35.166	0   	0   	0   	0
+	172.187	0   	0   	171.32	0   	0   	0
+	172.187	150.068	99.3844 171.32	0   	0   	0
+	0   	1626   	0   	0   	0   	0   	0
+	172.187	150.068	0   	0   	0   	0   	0
+	0   	0   	0   	0   	183.198	80.2032	87.2532
+	0   	0   	0   	0   	93.9618	171.182	117.172
+	0   	0   	0   	0   	183.198	80.2032	87.2532
+	0   	0   	0   	0   	93.9618	171.182	117.172
+	0   	0   	0   	0   	93.9618	171.182	117.172
+	0   	0   	0   	0   	93.9618	171.182	117.172
+	0   	0   	0   	0   	195.824	82.3394	117.657
+]
+
+--> Shows the length of test busses
+--> [Number of test busses, ... ]
+[2,	8	16]
+
+--> Shows the area of test busses
+--> [Number of test busses, ... ]
+[2,	7.136	5.226]
+
+--> Shows the scan length of each cores, for busses equals 0 ->tij
+--> [Number of cores, ... ]
+[7,	3606	1221	2104	6450	0	0	0]

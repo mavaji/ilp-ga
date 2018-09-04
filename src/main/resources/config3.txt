@@ -1,0 +1,19 @@
+<path of test case file>
+../benchmark/b1.txt
+<generations>
+200
+<chromosomes>
+200
+<boot-strap IP>
+127.0.0.1
+<boot-strap port>
+4444
+<penalty factors>
+15 15 1 1 1 1 10 1 1 1
+<migration rate>
+0.2
+<iterations>
+10
+<port>
+3333
+<end of config>
